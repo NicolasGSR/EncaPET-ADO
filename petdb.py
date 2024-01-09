@@ -8,9 +8,9 @@ from mysql.connector import errorcode
 print("Conectando...")
 try:
       conn = mysql.connector.connect(
-            host='192.168.0.85',
-            user='nicolassreis',
-            password='senhauser'
+            host='',
+            user='',
+            password=''
       )
 except mysql.connector.Error as err:
       if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
